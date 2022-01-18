@@ -1,0 +1,4 @@
+- Em sử dụng Bootrap 4 làm source chủ yếu cho thiết kế web
+- Do em không thành thạo về mảng thiết kế web cho lắm nên em vẫn chưa làm được responsive cho điện thoại 
+- Hiện tại thì em vẫn nghiên cứu thêm về thiết kế và responsive cho web như thế nào là chuẩn
+- Em sử dụng phần visual studio code để công cụ thiết kế web.

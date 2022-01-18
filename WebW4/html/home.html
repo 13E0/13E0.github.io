@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 4</title>
+
+    <link rel="stylesheet" href="/WebW4/css/styles.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body>
+    <div id="preloader">
+      <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/Yf5d_Zx3AaI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="d-none"></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Yf5d_Zx3AaI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="d-none"></iframe>
+       --> 
+    </div>
+
+   <section class="head-navbar d-none d-lg-block">
+       <div class="container-fluid">
+
+        <nav class="navbar navbar-expand-md">
+            <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link text-head-nav" href="#">Giảm giá 20% dịp lễ 20/10</a>
+                    </li>
+                </ul>
+            </div>
+         
+            <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-head-nav " href="#"><img src="/WebW4/img-rs/Vn_ico.png" class="img-hn">Tiếng Việt</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-head-nav border-hn" href="#"> <img src="/WebW4/img-rs/lc_ico.png"  class="img-hn"> Cửa hàng</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-head-nav border-hn" href="#"> <img src="/WebW4/img-rs/Acc_ico.png"  class="img-hn"> Tài Khoản</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </nav>
+
+
+    </div>
+   </section>
+        
+
+<section class="mid-navbar">
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <!-- Brand -->
+            <a class="navbar-brand" href="#"><img src="/WebW4/img-rs/logo-header-1.png" alt=""></a>
+            <a class="navbar-brand" href="#"><img src="/WebW4/img-rs/logo-authourized-casio.png" alt="" class="img-pad-right"></a>
+            <div class="input-group w-50 ">
+                        <span class="input-group-prepend">
+                            <div class="input-group-text bg-dark border-right-0"><img src="/WebW4/img-rs/look_up.png" alt=""></i></div>
+                        </span>
+                        <input class="form-control py-2 " type="search" placeholder="Nhập từ khóa" id="example-search-input">
+                        <span class="input-group-append bg-orange ">
+                        <button class="btn btn-outline border-left-0 border" type="button">
+                            Tìm kiếm
+                        </button>
+                      </span>
+            </div>    
+
+            <a class="navbar-brand" href="#"><img src="/WebW4/img-rs/head_phone.png" alt="" class="img-mid-t"></a>
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="text-gray font-weight-bold" href="#">Hotline</a>
+                </li>
+                <li class="nav-item">
+                  <a class="text-gray" href="#">0934 003 403</a>
+                </li>        
+              </ul>
+              <a class="navbar-brand" href="#"><img src="/WebW4/img-rs/cart_ico.png" alt="" class="img-mt"></a>
+             <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="text-gray font-weight-bold" href="#">Giỏ hàng</a>
+                </li>
+                <li class="nav-item">
+                  <a class="text-gray" href="#"> 0.00</a>
+                </li>        
+              </ul>
+
+
+
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse " id="collapsibleNavbar">
+              <ul class="navbar-nav d-lg-none">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Trang Chủ</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Tin Tức</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Liên Hệ</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+
+    </div>
+
+</section>
+
+
+<section class="bottom-nav">
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-sm navbar-dark">
+            <!-- Brand -->
+            <a class="text-cate navbar-brand bg-orange p-md-3" href="#">DANH MỤC SẢN PHẨM
+              <img src="/WebW4/img-rs/cate_lo.png" class="img-more" alt="">
+
+            </a>
+          
+            <!-- Links -->
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link text-dark font-weight-bold margin-left-30 margin-bottom-30" href="#">TRANG CHỦ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark font-weight-bold text-m-l margin-bottom-30" href="#">GIỚI THIỆU</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark font-weight-bold text-m-l margin-bottom-30" href="#">LIMITED</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark font-weight-bold text-m-l margin-bottom-30" href="#">KHUYẾN MÃI</a>
+              </li>
+
+              <!-- Dropdown -->
+              <li class="nav-item dropdown margin-bottom-30">
+                <a class="nav-link dropdown-toggle text-dark font-weight-bold text-m-l" href="#" id="navbardrop" data-toggle="dropdown">
+                 TIN TỨC
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Link 1</a>
+                  <a class="dropdown-item" href="#">Link 2</a>
+                  <a class="dropdown-item" href="#">Link 3</a>
+                </div>
+              </li>
+
+              <li class="nav-item dropdown text-dark font-weight-bold text-m-l margin-bottom-30">
+                <a class="nav-link dropdown-toggle  text-dark" href="#" id="navbardrop" data-toggle="dropdown">
+                 LIÊN HỆ
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Link 1</a>
+                  <a class="dropdown-item" href="#">Link 2</a>
+                  <a class="dropdown-item" href="#">Link 3</a>
+                </div>
+              </li>
+            </ul>
+          </nav>
+
+    </div>
+</section>
+   
+
+<section class="carousel">
+  <div class="container-fluid">
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+      <!-- Indicators -->
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+     
+      </ul>
+    
+      <!-- The slideshow -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/WebW4/img-rs/1534419132_Casio_Casual_Watch_For_Men_banner-min.png"  height="450px" width="1300px">
+        </div>
+        <div class="carousel-item">
+          <img src="/WebW4/img-rs/murugendra-hiremath-00001212.jpg" width="800px" class="mx-auto d-block">
+        </div>
+      </div>
+    
+      <!-- Left and right controls -->
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    
+    </div>
+  </div>
+</section>
+
+
+<section class="below-slide">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-4">
+        <div class="row">
+          <div class="col-2">
+          <img src="/WebW4/img-rs/chinh-hang.png" alt="" class="d-inline">
+          </div>
+          <div class="col-8">       
+          <a href="" class="text-dark font-weight-bold d-block">Chính hãng 100% Casio</a>
+          <a href="" class="text-dark">Nhà phân phối ủy quyền Casio</a> 
+        </div>
+        </div>
+      </div>
+
+      <div class="col-4">
+        <div class="row">
+          <div class="col-2">
+          <img src="/WebW4/img-rs/giao-hang.png" alt="" class="d-inline">
+          </div>
+          <div class="col-8">       
+          <a href="" class="text-dark font-weight-bold d-block">Giao hàng toàn quốc</a>
+          <a href="" class="text-dark">FreeShip với HĐ trên 1 triệu</a> 
+        </div>
+        </div>
+      </div>
+
+
+      <div class="col-4">
+        <div class="row">
+          <div class="col-2">
+          <img src="/WebW4/img-rs/bao-mat.png" alt="" class="d-inline">
+          </div>
+          <div class="col-8">       
+          <a href="" class="text-dark font-weight-bold d-block">Bảo hành chính hãng</a>
+          <a href="" class="text-dark">BH máy 5 năm G-Shock & Baby-G</a> 
+        </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<section class="card-head">
+  <div class="container-fluid">
+    <div class="card-group">
+      <div class="card text-white border-0" >
+        <img class="card-img-top p-3 mx-auto d-block" src="/WebW4/img-rs/Fash-on.png" height="500px" alt="Card image">
+        <div class="card-img-overlay">
+          <h4 class="card-text text-center text-in-head-card rounded-pill">FASHION</h4>
+        </div>
+      </div>
+
+      <div class="card text-white border-0">
+        <img class="card-img p-3 " src="/WebW4/img-rs/g-shock-bgd-h1000-1.png" height="500px" alt="Card image">
+        <div class="card-img-overlay">
+          <h4 class="card-text text-center text-in-head-card rounded-pill">GBD - H1000</h4>
+        </div>
+      </div>
+
+      <div class="card text-white border-0">
+        <img class="card-img p-3" src="/WebW4/img-rs/discover_more_3.png" height="500px" alt="Card image">
+        <div class="card-img-overlay">
+          <h4 class="card-text text-center text-in-head-card rounded-pill">PAIR WATCH</h4>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</section>
+
+
+<section class="body-banner">
+  <div class="container-fluid">
+    <div class="card text-white border-0">
+      <img class="card-img img-banner-hot" src="/WebW4/img-rs/Rectangle 1 copy 3.png" alt="Card image">
+      <div class="card-img-overlay">
+        <h3 class="card-title text-dark font-weight-bold border-bottom border-warning border-3">Sản phẩm <a class="text-orange"> Hot </a></h3>
+        <h1 class="text-dark font-weight-bold pt-4">G-Shock</h1>
+        <h2 class="text-dark">G-SQUAD </h2>
+        <h5 class="text-dark">Giá : <a href="" class="text-danger">4.700.000đ</a> </h5>
+        <h4 class="text-orange pt-5">XEM CHI TIẾT</h4>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="banner-box"> 
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col">
+        <img src="/WebW4/img-rs/brand_1.png"  class="img-brand img-border-orange" alt="">
+      </div>
+
+      <div class="col">
+        <img src="/WebW4/img-rs/brand_2.png" alt="">
+      </div>
+
+      <div class="col">
+        <img src="/WebW4/img-rs/brand_3.png" class="img-brand" alt="">
+      </div>
+
+      <div class="col">
+        <img src="/WebW4/img-rs/brand_4.png" class="img-brand" alt="">
+      </div>
+
+      <div class="col">
+        <img src="/WebW4/img-rs/brand_5.png" class="img-brand" alt="">
+      </div>
+
+
+
+
+    </div>
+
+
+  </div>
+</section>
+
+
+<section class="new-product">
+  <div class="container-fluid">
+    <h3 class="border-bot-orange font-weight-bold"> Sản phẩm mới</h3>
+
+    <div class="card-group mt-4">
+      <div class="card border-0">
+        <img class="card-img-top" src="/WebW4/img-rs/product_1.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title text-center">LTP-VT01GL-7B</h5>
+          <p class="card-text text-center text-danger font-weight-bold">1.058.000đ</p>
+        </div>       
+      </div>
+
+      <div class="card  border-0">
+        <img class="card-img-top" src="/WebW4/img-rs/product_2.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title text-center">SPG-VT01GL-7B</h5>
+          <p class="card-text text-center text-danger font-weight-bold">2.230.000đ</p>
+        </div>       
+      </div>
+
+      <div class="card border-0">
+        <img class="card-img-top w-75 p-3 mx-auto" src="/WebW4/img-rs/product_3.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title text-center">MAT-YT01GL-A4</h5>
+          <p class="card-text text-center text-danger font-weight-bold">1.780.000đ</p>
+        </div>       
+      </div>
+
+      <div class="card border-0">
+        <img class="card-img-top w-75 p-1 mt-3 mx-auto" src="/WebW4/img-rs/product_4.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title text-center">LTP-VT01GL-7B</h5>
+          <p class="card-text text-center text-danger font-weight-bold">3.480.000đ</p>
+        </div>       
+      </div>
+
+    </div>
+</section>
+
+<section class="new-product">
+  <div class="container-fluid">
+    <h3 class="border-bot-orange font-weight-bold"> Sản phẩm bán chạy</h3>
+
+    <div class="card-group mt-4">
+      <div class="card border-0">
+        <img class="card-img-top" src="/WebW4/img-rs/product_1.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title text-center">LTP-VT01GL-7B</h5>
+          <p class="card-text text-center text-danger font-weight-bold">1.058.000đ</p>
+        </div>       
+      </div>
+
+      <div class="card  border-0">
+        <img class="card-img-top" src="/WebW4/img-rs/product_2.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title text-center">SPG-VT01GL-7B</h5>
+          <p class="card-text text-center text-danger font-weight-bold">2.230.000đ</p>
+        </div>       
+      </div>
+
+      <div class="card border-0">
+        <img class="card-img-top w-75 p-3 mx-auto" src="/WebW4/img-rs/product_3.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title text-center">MAT-YT01GL-A4</h5>
+          <p class="card-text text-center text-danger font-weight-bold">1.780.000đ</p>
+        </div>       
+      </div>
+
+      <div class="card border-0">
+        <img class="card-img-top w-75 p-1 mt-3 mx-auto" src="/WebW4/img-rs/product_4.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title text-center">LTP-VT01GL-7B</h5>
+          <p class="card-text text-center text-danger font-weight-bold">3.480.000đ</p>
+        </div>       
+      </div>
+
+    </div>
+
+    <div class="card-group mt-4">
+      <div class="card border-0">
+        <img class="card-img-top" src="/WebW4/img-rs/product_1.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title text-center">LTP-VT01GL-7B</h5>
+          <p class="card-text text-center text-danger font-weight-bold">1.058.000đ</p>
+        </div>       
+      </div>
+
+      <div class="card  border-0">
+        <img class="card-img-top" src="/WebW4/img-rs/product_2.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title text-center">SPG-VT01GL-7B</h5>
+          <p class="card-text text-center text-danger font-weight-bold">2.230.000đ</p>
+        </div>       
+      </div>
+
+      <div class="card border-0">
+        <img class="card-img-top w-75 p-3 mx-auto" src="/WebW4/img-rs/product_3.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title text-center">MAT-YT01GL-A4</h5>
+          <p class="card-text text-center text-danger font-weight-bold">1.780.000đ</p>
+        </div>       
+      </div>
+
+      <div class="card border-0">
+        <img class="card-img-top w-75 p-1 mt-3 mx-auto" src="/WebW4/img-rs/product_4.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title text-center">LTP-VT01GL-7B</h5>
+          <p class="card-text text-center text-danger font-weight-bold">3.480.000đ</p>
+        </div>       
+      </div>
+
+    </div>
+
+</section>
+
+
+<section class="body-banner-end">
+  <div class="container-fluid">
+    <div class="card text-white border-0">
+      <img class="card-img img-banner-hot" src="/WebW4/img-rs/styles.png" alt="Card image">
+      <div class="card-img-overlay">
+        <h3 class="card-title text-dark font-weight-bold border-bottom border-warning border-3">Phong cách</h3>
+        <h3 class="text-orange pt-5">G- MS </h3>
+        <h3 class="text-dark">G - SQUAD </h3>
+        <h3 class="text-dark">LIMITED MODELS </h3>
+        <h4 class="text-banner-end d-inline-flex rounded-pill float-right">XEM CHI TIẾT</h4>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="body-news">
+  <div class="container-fluid">
+    <div class="border-bot-orange">
+    <div class="row ">
+      <div class="col">
+        <h3 class="font-weight-bold">Tin tức & sự kiện</h3>  
+       </div>
+
+       <div class="col">
+        <h4 class="text-right text-orange">XEM THÊM</h4>  
+       </div>
+    </div>
+
+
+    </div>
+
+    <div class="card-group pt-lg-4">
+      <div class="card border-0">
+        <img class="card-img-top " src="/WebW4/img-rs/news.png" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text"><small class="text-muted">23/06/2020 11:00</small></p>
+          <h5 class="card-title">Mix-Match đồng hồ Casio "thần sầu" như người đẹp Mỹ Khôi</h5>
+          <p class="card-text">Cô nàng bật mí để luôn có vẻ ngoài năng động, nổi bật trong những tiệc sôi động ngoài chọn thời trang....</p>
+          
+        </div>
+      </div>
+      <div class="card border-0">
+       
+        <div class="card-body">
+          <p class="card-text"><small class="text-muted">23/06/2020 11:00</small></p>
+          <h5 class="card-title">Mix-Match đồng hồ Casio "thần sầu" như người đẹp Mỹ Khôi</h5>
+          <p class="card-text"><small class="text-muted">23/06/2020 11:00</small></p>
+          <h5 class="card-title">Mix-Match đồng hồ Casio "thần sầu" như người đẹp Mỹ Khôi</h5>
+          <p class="card-text"><small class="text-muted">23/06/2020 11:00</small></p>
+          <h5 class="card-title">Mix-Match đồng hồ Casio "thần sầu" như người đẹp Mỹ Khôi</h5>
+          <p class="card-text"><small class="text-muted">23/06/2020 11:00</small></p>
+          <h5 class="card-title">Mix-Match đồng hồ Casio "thần sầu" như người đẹp Mỹ Khôi</h5>
+        </div>
+      </div>
+
+     <div class="card border-0">
+       
+        <div class="card-body">
+          <p class="card-text"><small class="text-muted">23/06/2020 11:00</small></p>
+          <h5 class="card-title">Mix-Match đồng hồ Casio "thần sầu" như người đẹp Mỹ Khôi</h5>
+          <p class="card-text"><small class="text-muted">23/06/2020 11:00</small></p>
+          <h5 class="card-title">Mix-Match đồng hồ Casio "thần sầu" như người đẹp Mỹ Khôi</h5>
+          <p class="card-text"><small class="text-muted">23/06/2020 11:00</small></p>
+          <h5 class="card-title">Mix-Match đồng hồ Casio "thần sầu" như người đẹp Mỹ Khôi</h5>
+          <p class="card-text"><small class="text-muted">23/06/2020 11:00</small></p>
+          <h5 class="card-title">Mix-Match đồng hồ Casio "thần sầu" như người đẹp Mỹ Khôi</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="emails">
+  <div class="container-fluid">
+
+    <div class="row">
+      <div class="col-1">
+        <img src="/WebW4/img-rs/email.png" alt="">
+      
+      </div>
+
+      <div class="col-5">
+        <h4>Đăng ký nhận tin</h4>
+        <h5>Hãy để lại email để nhận ưu đãi nhiều hơn</h5>
+      </div>
+
+      <div class="col">
+        <div class="input-group mb-3 ">
+          <input type="text" class="form-control font-italic" placeholder="Nhập địa chỉ email">
+          <div class="input-group-append bg-orange rounded">
+            <button class="btn text-white" type="button">Đăng ký</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+    
+
+  </div>
+</section>
+
+
+<section class="footer">
+  <div class="container-fluid">
+    <div class="row text-white border-bottom pt-5 pb-4">
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase">ANH KHUÊ SÀI GÒN</h5>
+
+        <ul class="list-unstyled mb-0">
+          <li>
+            <a href="#!" class="text-white"> <img src="/WebW4/img-rs/location_ico.png" alt="" class="ico_footer" > Số 20 đường 3 tháng 2, P.12, Q.10 </a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Tư vấn mua hàng (8:00 - 17:00) : </a>
+          </li>
+          <li>
+            <a href="#!" class="text-white"><img src="/WebW4/img-rs/phone_ico.png" alt=""class="ico_footer" > 0934 003 403</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Chăm sóc khách hàng : </a>
+          </li>
+          <li>
+            <a href="#!" class="text-white"><img src="/WebW4/img-rs/phone_ico.png" alt=""class="ico_footer" > 0916 12 17 19</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white"><img src="/WebW4/img-rs/email_ico.png" alt="" class="ico_footer" > hungroyal254@gmail.com</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white"><img src="/WebW4/img-rs/web_global.png" alt="" class="ico_footer"> casio.anhkhue.com</a>
+          </li>
+          
+
+        </ul>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase">THÔNG TIN</h5>
+
+        <ul class="list-unstyled mb-0">
+          <li>
+            <a href="#!" class="text-white">Liên hệ</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Giới thiệu</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Lịch sử hình thành</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Tầm nhìn sứ mệnh</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Website Casio</a>
+          </li>
+        </ul>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase">HỖ TRỢ</h5>
+
+        <ul class="list-unstyled mb-0">
+          <li>
+            <a href="#!" class="text-white">Hướng dẫn thanh toán</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Hướng dẫn đổi trả hàng</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Hướng dẫn tìm cửa hàng</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Hướng dẫn mua hàng online</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Chính sách khách hàng thân thiết</a>
+          </li>
+        </ul>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase">CHÍNH SÁCH</h5>
+
+        <ul class="list-unstyled mb-0">
+          <li>
+            <a href="#!" class="text-white">Quy định đổi trả</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Quy định bảo hành</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Trung tâm bảo hành</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Điều khoản dịch vụ</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Chính sách bảo mật</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white"><img src="/WebW4/img-rs/fb_ico.png" alt="" class="ico_footer"><img src="/img-rs/yb_ico.png" alt="" class="ico_footer"> </a>
+          </li>
+        </ul>
+      </div>
+      <!--Grid column-->
+    </div>
+  
+   <div class="row pt-4 border-bottom">
+      <div class="col-4">
+        <img src="/WebW4/img-rs/logo-01_2.png" alt=" " class="border p-2 rounded d-block pr-3">
+
+        <img src="/WebW4/img-rs/logosalenoti.png" alt=" " class="border p-2 rounded mt-2 pr-5">
+      </div>
+
+      <div class="col-4 text-white pb-neg">
+        <p class="">2019 Anh Khuê Công Ty Cổ Phần Anh Khuê Sài Gòn.</p>
+        <p class="pb-0">Trụ sở chính: 104 Hùng Vương, Phường 2, TP. Tân An, Tỉnh Long An</p>
+        <p class="pb-0">GCNĐKKD: 1101780735 do Sở KH&ĐT tỉnh Long An cấp ngày 28/10/2016</p>
+        <p class="pb-0">CN : Số 20 đường 3 tháng 2 , Phường 12, Quận 10, HCM</p>
+        <p class="pb-0">Email : hungroyal254@gmail.com</p>
+      </div>
+
+      <div class="col-auto">
+        <img src="/WebW4/img-rs/vietnam2-1.png" alt="" class="img-footer">
+      </div>
+   </div>
+
+<div class="row text-white pt-3 pb-3">
+  <div class="col">
+    Bản quyền thuộc về Anh Khuê Sài Gòn - Developed by ANFLASH TECHNOLOGY
+  </div>
+
+  <div class="col-auto">
+    <img src="/WebW4/img-rs/payment_1.png" alt="" class="mx-auto">
+  </div>
+
+</div>
+
+  </div>
+</section>
+
+    <script>
+        
+        var loader = document.getElementById("preloader");
+
+        window.addEventListener("load", function (){
+            loader.style.display = "none"   ;
+
+        })
+
+    </script>
+    
+</body>
+</html>
